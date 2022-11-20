@@ -1,0 +1,20 @@
+:root {
+  --background:#e8e8e8;
+  --main:#D9394C;
+  --secondary:#7C7C7C;
+  --highlight:#92DCE5;
+  --text:#ffebcd;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: default;
+  font-family: 'DM Sans', sans-serif;
+}
+
+body{
+  background: var(--background);
+  overflow-x: hidden;
+}
