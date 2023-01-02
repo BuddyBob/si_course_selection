@@ -1,0 +1,78 @@
+:root {
+    --background:#e8e8e8;
+    --main:#002664;
+    --secondary:#A61930;
+    --highlight:#2D2D2D;
+    --text:#2D2D2D;
+  }
+.titleCourseSelect{
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 400;
+    color: var(--secondary);
+
+    /* center text to page; */
+    margin: auto;
+    width: 30%;
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+
+
+}
+
+.headerCourseSelect{
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 400px;
+    color: var(--highlight);
+
+
+    position: absolute;
+    top: 50%;
+    left:400px;
+    /* flip vertically */
+    transform: rotate(-90deg);
+}
+.courseSelect{
+    position: relative;
+    top: 200px;
+    margin: auto;
+    text-align: center;
+}
+.subject{
+    color: var(--text);
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight:200;
+    padding-top: 20px;
+
+  }
+
+  .courses{
+    position: relative;
+    margin-bottom: 100px;
+    margin-top:25px;
+
+  }
+
+.course_btn{
+    border: #002664 0px solid;
+    border-radius: 7px;
+    background: #002664;
+    width: 300px; 
+    height: 65px;/*Width of select dropdown to give space for arrow image*/
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 30px;
+    margin: 25px;
+}
+
+.course_btn:hover{
+    background: var(--secondary);
+    color: #FFF;
+    cursor: pointer;
+}

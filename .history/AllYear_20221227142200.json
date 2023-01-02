@@ -1,0 +1,23 @@
+{
+    "FreshmanAllYears": {
+        "FroshY1":{"Math":[1,2], "English": [1,2]},
+        "SophY2":{"Math":[1,2], "English": [1,2]},
+        "JuniorY3":{"Math":[1,2], "English": [1,2]},
+        "SeniorY4":{"Math":[1,2], "English": [1,2]}
+    },
+
+    "SophmoreAllYears": {
+        "SophY1":{"Math":[1,2], "English": [1,2]},
+        "JuniorY2":{"Math":[1,2], "English": [1,2]},
+        "SeniorY3":{"Math":[1,2], "English": [1,2]}
+    },
+
+    "JuniorAllYears": {
+        "JuniorY1":{"Math":[1,2], "English": [1,2]},
+        "SeniorY2":{"Math":[1,2], "English": [1,2]}
+    },
+
+    "SeniorAllYears": {
+        "SeniorY1":{"Math":[1,2], "English": [1,2]}
+    }
+}

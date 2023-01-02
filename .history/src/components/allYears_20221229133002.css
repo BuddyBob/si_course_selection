@@ -1,0 +1,12 @@
+.titleCourseSelect{
+    font-style: normal;
+    font-size: 65px;
+    font-weight: 450;
+    color: var(--secondary);
+
+    /* center text to page; */
+    margin: auto;
+    width: 30%;
+    top:20%;
+    text-align: center;
+}

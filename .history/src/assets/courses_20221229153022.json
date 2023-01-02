@@ -1,0 +1,24 @@
+{
+    "Freshman":{
+        "subjects":[
+            "Math",
+            "English"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Algebra 1",
+                "Algebra Accelerated",
+                "Algebra 2 Honors",
+                "Calculus"
+            ],
+            "English":[
+                "English 1",
+                "English 2",
+                "English 3",
+                "English 4"
+            ]
+
+        }
+    }
+}

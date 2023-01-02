@@ -1,0 +1,12 @@
+{
+    "Freshman":{
+        "subjects":[
+            "Math",
+            "English",
+            "Science",
+            "Language",
+            "Rel Studies",
+            "Ethnics Studies"
+        ]
+    }
+}

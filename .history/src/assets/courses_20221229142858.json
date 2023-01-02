@@ -1,0 +1,28 @@
+{
+    "Freshman":{
+        "subjects":[
+            "Math",
+            "English",
+            "Science",
+            "Language",
+            "Rel Studies",
+            "Ethnics Studies"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Alg 1",
+                "Alg Acc",
+                "Alg 2 Honors",
+                "Calculus"
+            ],
+            "English":[
+                "English 1",
+                "English 2",
+                "English 3",
+                "English 4"
+            ]
+
+        }
+    }
+}

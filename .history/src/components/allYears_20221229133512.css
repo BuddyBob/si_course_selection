@@ -1,0 +1,31 @@
+.titleCourseSelect{
+    font-style: normal;
+    font-size: 60px;
+    font-weight: 400;
+    color: var(--secondary);
+
+    /* center text to page; */
+    margin: auto;
+    width: 30%;
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+
+
+}
+
+.headerCourseSelect{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--highlight);
+
+    /* center text to page; */
+    margin: auto;
+    width: 30%;
+    text-align: center;
+
+    position: relative;
+    top: 150px;
+}

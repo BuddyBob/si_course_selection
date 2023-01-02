@@ -1,0 +1,138 @@
+:root {
+  --background:#e8e8e8;
+  --main:#002664;
+  --secondary:#A61930;
+  --highlight:#2D2D2D;
+  --text:#2D2D2D;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  cursor: default;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 80px;
+}
+
+.title{
+  font-style: normal;
+  font-size: 90px;
+  color: var(--secondary);
+  font-weight: 450;
+  /* center text to page; */
+  margin: auto;
+  width: 50%;
+  text-align: center;
+
+}
+
+/* .grade{
+  position: relative;
+  background-color: var(--main);
+  padding:30px;
+  border-radius: 10px;
+  border: 2px solid var(--main);
+  width:10%;
+  height: 10%;
+  top:500px;
+  right:300px
+}
+
+.years{
+  position: relative;
+  background-color: var(--main);
+  padding:30px;
+  border-radius: 10px;
+  border: 2px solid var(--main);
+  width:10%;
+  height: 10%;
+  top:340px;
+  left:300px
+} */
+
+select {
+  border: #002664 1px solid;
+  border-radius: 7px;
+  background: #002664;
+  width: 200px; 
+  height: 65px;/*Width of select dropdown to give space for arrow image*/
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 30px;
+  margin: 50px;
+}
+
+.pg1dd {
+  position: relative;
+
+}
+
+.arrow5{
+  position: absolute;
+  z-index: 3;
+  color:var(--main);
+  cursor: pointer;
+  top:60%
+}
+
+/* arrow animation */
+
+.arrow5:hover{
+  animation: arrow1 2s infinite;
+  
+}
+
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+}
+
+
+on:hover{
+  cursor: pointer;
+  color: var(--secondary);
+}
