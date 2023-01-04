@@ -22,90 +22,74 @@ body{
 
 
 .main-container{
-/* center */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: auto;
+  padding: 0px;
+  gap: 80px;
 }
-
-.sub-container{
-  display: flex;
-  flex-direction: row;
-}
-
-
 
 .title{
   font-style: normal;
   font-size: 90px;
   color: var(--secondary);
-  font-weight: 500px;
+  font-weight: 450;
   /* center text to page; */
   margin: auto;
   width: 50%;
   text-align: center;
+
+}
+
+/* .grade{
   position: relative;
-  top: 100px;
-
-
+  background-color: var(--main);
+  padding:30px;
+  border-radius: 10px;
+  border: 2px solid var(--main);
+  width:10%;
+  height: 10%;
+  top:500px;
+  right:300px
 }
 
-@media screen and (max-width: 1150px) {
-  .sub-container{
-    flex-direction: column;
-  }
-  .title{
-    font-size: 60px;
-    width: 80%;
-    text-align: center;
-  }
-  
-}
+.years{
+  position: relative;
+  background-color: var(--main);
+  padding:30px;
+  border-radius: 10px;
+  border: 2px solid var(--main);
+  width:10%;
+  height: 10%;
+  top:340px;
+  left:300px
+} */
 
 select {
   border: #002664 1px solid;
   border-radius: 7px;
   background: #002664;
-  width: 300px; 
-  height: 80px;/*Width of select dropdown to give space for arrow image*/
+  width: 200px; 
+  height: 65px;/*Width of select dropdown to give space for arrow image*/
   color: #FFF;
   text-align: center;
-  font-size: 25px;
-  font-weight: 20px;
+  font-size: 20px;
+  font-weight: 30px;
   margin: 50px;
-
 }
 
-
-.pg1dd{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  margin: auto;
+.pg1dd {
   position: relative;
-  top: 200px;
 
 }
-
-
 
 .arrow1{
-
-  /* center content */
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 100px
-
+  right: 50%;
+  top:200px;
 }
 
 

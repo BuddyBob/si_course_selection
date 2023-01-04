@@ -5,11 +5,9 @@ import {
     Routes,
 } from "react-router-dom";
 
-import CurrentYear from "./components/CurrentYear";
 import Home from "./Home";
-import YearFour from "./components/AllYears/YearFour";
+import YearOne from "./components/CurrentYear";
 import YearOne from "./components/AllYears/YearOne";
-import YearThree from "./components/AllYears/YearThree";
 import YearTwo from "./components/AllYears/YearTwo";
 
 export default function App() {
@@ -19,8 +17,6 @@ export default function App() {
             <Route  exact path='/currentYear' element={<CurrentYear/>} />
             <Route  exact path='/yearOne' element={<YearOne/>} />
             <Route  exact path='/yearTwo' element={<YearTwo/>} />
-            <Route  exact path='/yearThree' element={<YearThree/>} />
-            <Route  exact path='/yearFour' element={<YearFour/>} />
           </Routes>
     );
   }

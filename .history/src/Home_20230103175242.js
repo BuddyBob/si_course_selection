@@ -14,11 +14,7 @@ function Home() {
     console.log(e.target.elements[0].value, e.target.elements[1].value)
     localStorage.setItem("grade", e.target.elements[0].value);
     localStorage.setItem("year", e.target.elements[1].value);
-    if (e.target.elements[1].value == "Current Year") {
-      navigate("/currentYear"); 
-    }else{
-      navigate("/yearOne");
-    }
+    navigate("/yearone"); 
   }
   return (
     <div>
@@ -26,19 +22,17 @@ function Home() {
       <div className="main-container">
         <h1 className="title">Saint Ignatius Course Selection</h1>
         <form className="pg1dd" onSubmit={(e) => formSubmit(e)}>
-            <div className="sub-container">
-              <select className="grade">
-                  <option>Freshman</option>
-                  <option>Sophomore </option>
-                  <option>Junior</option>
-                  <option>Senior</option>
-              </select>
+            <select className="grade">
+                <option>Freshman</option>
+                <option>Sophomore </option>
+                <option>Junior</option>
+                <option>Senior</option>
+            </select>
 
-              <select className="years">
-                  <option>Current Year</option>
-                  <option>All Years</option>
-              </select>
-            </div>
+            <select className="years">
+                <option>Current Year</option>
+                <option>All Years</option>
+            </select>
             <input type="image" src={arrow} alt="arrow1" className="arrow1 bounce" />
         </form>
 

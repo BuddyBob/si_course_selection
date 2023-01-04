@@ -2,32 +2,33 @@ import './allYears.css'
 
 import React, {useEffect, useState} from 'react'
 
-import courseData from '../assets/courses.json'
+import arrow5 from '../../assets/Arrow 5.png'
+import courseData from '../../assets/courses.json'
+import { getNextKeyDef } from '@testing-library/user-event/dist/keyboard/getNextKeyDef';
+import { useNavigate } from "react-router-dom";
 
 export default function Yearone() {
   const [grade, setGrade] = useState(localStorage.getItem('grade'));
   let subjects = courseData.Freshman.subjects
   let courses = courseData.Freshman.classes
   
-  //get all years data
-  let allYears = JSON.parse(localStorage.getItem('allYears'))
-  console.log(allYears)
-  let yearOneData = allYears[grade]
-  console.log(yearOneData)
 
-  //parse AllYearsData
-  // console.log(yearOneData)
 
 function courseSelect(e) {
   let userCourse = e.target.innerHTML
   let userSubject = e.target.value
-  console.log(userCourse, userSubject)
-  //add new Course to allYearsData
-  let added = JSON.parse(localStorage.getItem('allYears'))[grade][grade][userSubject] = "active"
-  console.log(added)
-  localStorage.setItem('allYears', added)
+
 
 }
+
+function nextPage() {
+  let navigate = useNavigate();
+  if (grade !== "Senior"){
+    navigate("/yeartwo");
+  }
+  else{
+    navigate("/ThisIsTheResultsPage");
+  }
 
     return (
     <div>
@@ -44,10 +45,7 @@ function courseSelect(e) {
               <div className="courses">
               {courses[subject].map((course, index) => (
                 <div key={index}>
-                    {yearOneData[grade][subject][course] === "active" ?
-                    <button value={subject}  className="course_btn_selected" >{course}</button>
-                    : <button value={subject} className="course_btn" onClick={(e) => courseSelect(e)}>{course}</button>}
-
+                    <button value={subject} className="course_btn" onClick={(e) => courseSelect(e)}>{course}</button>
                 </div>
               ))}
               </div>
@@ -55,6 +53,7 @@ function courseSelect(e) {
           ))}
 
         </div>
+
     </div>
   )
 }

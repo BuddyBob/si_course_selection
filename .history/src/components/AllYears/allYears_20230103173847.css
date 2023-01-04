@@ -1,0 +1,133 @@
+:root {
+    --background:#e8e8e8;
+    --main:#002664;
+    --secondary:#A61930;
+    --highlight:#2D2D2D;
+    --text:#2D2D2D;
+  }
+.titleCourseSelect{
+    font-style: normal;
+    font-size: 70px;
+    font-weight: 400;
+    color: var(--secondary);
+
+    /* center text to page; */
+    margin: auto;
+    width: 30%;
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+
+
+}
+
+.headerCourseSelect{
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 400px;
+    color: var(--highlight);
+
+
+    position: absolute;
+    top: 50%;
+    right:72%;
+    width:45%;
+    /* flip vertically */
+    transform: rotate(-90deg);
+}
+.courseSelect{
+    position: relative;
+    top: 200px;
+    margin: auto;
+    text-align: center;
+}
+.subject{
+    color: var(--text);
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight:200;
+    padding-top: 20px;
+
+  }
+
+  .courses{
+    position: relative;
+    margin-bottom: 100px;
+    margin-top:25px;
+
+  }
+
+.course_btn{
+    border: #002664 0px solid;
+    border-radius: 7px;
+    background: #002664;
+    width: 300px; 
+    height: 65px;/*Width of select dropdown to give space for arrow image*/
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 30px;
+    margin: 25px;
+}
+
+.course_btn:hover{
+    background: var(--secondary);
+    color: #FFF;
+    cursor: pointer;
+}
+
+.course_btn_selected{
+  background: #A61930;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.arrow5{
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;;
+  right: 0%;
+  margin-bottom:50px;
+}
+
+
+.arrow5:hover{
+  animation: arrow1 1s infinite;
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-10px);
+      -ms-transform: translateY(-10px);
+      -webkit-transform: translateY(-10px);
+      transform: translateY(-10px);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+}
+

@@ -59,8 +59,8 @@ body{
     flex-direction: column;
   }
   .title{
-    font-size: 60px;
-    width: 80%;
+    font-size: 50px;
+    width: 100%;
     text-align: center;
   }
   
@@ -97,15 +97,11 @@ select {
 
 
 .arrow1{
-
-  /* center content */
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 100px
-
+  right: 50%;
+  top:200px;
 }
 
 

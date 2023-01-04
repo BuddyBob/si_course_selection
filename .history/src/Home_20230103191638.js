@@ -14,11 +14,7 @@ function Home() {
     console.log(e.target.elements[0].value, e.target.elements[1].value)
     localStorage.setItem("grade", e.target.elements[0].value);
     localStorage.setItem("year", e.target.elements[1].value);
-    if (e.target.elements[1].value == "Current Year") {
-      navigate("/currentYear"); 
-    }else{
-      navigate("/yearOne");
-    }
+    navigate("/yearone"); 
   }
   return (
     <div>

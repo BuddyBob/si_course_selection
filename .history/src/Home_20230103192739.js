@@ -15,11 +15,10 @@ function Home() {
     localStorage.setItem("grade", e.target.elements[0].value);
     localStorage.setItem("year", e.target.elements[1].value);
     if (e.target.elements[1].value == "Current Year") {
-      navigate("/currentYear"); 
+      navigate("/currentyear"); 
     }else{
-      navigate("/yearOne");
+      navigate("/yearone");
     }
-  }
   return (
     <div>
       <input type="image" src={vector1} alt="vector" className="vector1" />

@@ -103,9 +103,8 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: 100px
-
+  width: 100%;
+  
 }
 
 

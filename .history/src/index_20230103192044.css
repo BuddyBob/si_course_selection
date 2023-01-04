@@ -37,7 +37,17 @@ body{
   flex-direction: row;
 }
 
-
+@media screen and (max-width: 900px) {
+  .sub-container{
+    flex-direction: column;
+  }
+  .title{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+}
 
 .title{
   font-style: normal;
@@ -52,18 +62,6 @@ body{
   top: 100px;
 
 
-}
-
-@media screen and (max-width: 1150px) {
-  .sub-container{
-    flex-direction: column;
-  }
-  .title{
-    font-size: 60px;
-    width: 80%;
-    text-align: center;
-  }
-  
 }
 
 select {
@@ -97,15 +95,11 @@ select {
 
 
 .arrow1{
-
-  /* center content */
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 100px
-
+  right: 50%;
+  top:200px;
 }
 
 

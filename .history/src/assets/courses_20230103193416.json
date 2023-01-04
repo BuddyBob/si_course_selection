@@ -65,24 +65,5 @@
             ]
 
         }
-    },
-    "Senior":{
-        "subjects":[
-            "Math",
-            "English"
-        ]
-        ,
-        "classes":{
-            "Math":[
-                "Math 4",
-                "Math 5"
-            ],
-            "English":[
-                "English 4",
-                "English 5",
-                "English 6"
-            ]
-
-        }
     }
 }
