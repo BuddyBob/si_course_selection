@@ -32,21 +32,14 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .titleCourseSelect{
     font-size: 50px;
     width: 80%;
   }
-  .navCourseSelect{
-    /* center text */
-    margin: auto;
-    width: 80%;
-    text-align: center;
-
-  }
 }
   
-
+}
 
 
 .courseSelect{
@@ -82,7 +75,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 30px;
-    margin: 10px;
+    margin: 25px;
 }
 
 .course_btn:hover{

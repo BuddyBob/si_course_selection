@@ -4,11 +4,9 @@
             "Math",
             "English",
             "Language",
-            "Science",
-            "Computer Science",
-            "Religious Studies",
-            "Physical Education"
-        ],
+            "Science"
+        ]
+        ,
         "classes":{
             "Math":[
                 "Algebra 1",
@@ -41,18 +39,6 @@
                 "Biology",
                 "Science Research"
 
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci."
-
-            ],
-            "Religious Studies":[
-                "Religious Studies 1"
-            ],
-            "Physical Education":[
-                "Wellness"
             ]
 
         }
@@ -62,10 +48,7 @@
             "Math",
             "English",
             "Language",
-            "Science",
-            "Computer Science",
-            "Religious Studies",
-            "Physical Education"
+            "Science"
         ]
         ,
         "classes":{
@@ -118,23 +101,6 @@
                 "ADV Placement Sci. lab",
                 "Human Anatomy + Physiology"
 
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci.",
-                "AP Computer Science A (JAVA)",
-                "AP Computer Science Principles"
-            ],
-            "Religious Studies":[
-                "Religious Studies 201"
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
 
         }
@@ -145,8 +111,7 @@
             "Math",
             "English",
             "Language",
-            "Science",
-            "Computer Science"
+            "Science"
         ]
         ,
         "classes":{
@@ -207,23 +172,6 @@
                 "Env. Science",
                 "Human Anatomy + Physiology"
 
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci.",
-                "AP Computer Science A (JAVA)",
-                "AP Computer Science Principles"
-            ],
-            "Religious Studies":[
-                "Foundations of Ethics"
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
 
         }
@@ -233,9 +181,7 @@
             "Math",
             "English",
             "Language",
-            "Science",
-            "Computer Science",
-            "Religious Studies"
+            "Science"
         ]
         ,
         "classes":{
@@ -303,33 +249,9 @@
                 "Engineering",
                 "Env. Science",
                 "Human Anatomy + Physiology"
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci.",
-                "AP Computer Science A (JAVA)",
-                "AP Computer Science Principles"
-            ],
-            "Religious Studies":[
-                "Rel Studies 460",
-                "Rel Studies 447",
-                "Rel Studies 470",
-                "Rel Studies 471",
-                "Rel Studies 472",
-                "Rel Studies 476",
-                "Rel Studies 477",
-                "Rel Studies 571",
-                "Studio Art (B/C)"
 
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
+
         }
     }
 }

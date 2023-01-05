@@ -6,11 +6,11 @@ import arrow from '../../assets/Arrow 5.png'
 import courseData from '../../assets/courses.json'
 import { useNavigate } from "react-router-dom";
 
-export default function YearFour() {
+export default function Yeartwo() {
   let navigate = useNavigate();
   const [grade, setGrade] = useState(localStorage.getItem('grade'));
   let grades = Object.keys(courseData)
-  let nextGrade = grades[Object.keys(courseData).indexOf(grade)+3]
+  let nextGrade = grades[Object.keys(courseData).indexOf(grade)+1]
   let subjects = courseData[nextGrade].subjects
   let courses = courseData[nextGrade].classes
   
@@ -24,8 +24,13 @@ function courseSelect(e) {
 }
 
 function nextPage() {
-    //year four is last year
+    //make sure not a senior
+  if (grade !== "Junior"){
+    navigate("/yearthree");
+  }
+  else{
     navigate("/ThisIsTheResultsPage");
+  }
 }
 
     return (
@@ -36,6 +41,7 @@ function nextPage() {
           </div>
           <h1 className="titleCourseSelect" >All Years - {nextGrade} </h1>
         </div>
+
 
         <div className="courseSelect">
           {subjects.map((subject, index) => (

@@ -3,12 +3,9 @@
         "subjects":[
             "Math",
             "English",
-            "Language",
-            "Science",
-            "Computer Science",
-            "Religious Studies",
-            "Physical Education"
-        ],
+            "Language"
+        ]
+        ,
         "classes":{
             "Math":[
                 "Algebra 1",
@@ -36,23 +33,6 @@
                 "Spanish 2",
                 "Spanish 2 Honors",
                 "Spanish 3 Honors"
-            ],
-            "Science":[
-                "Biology",
-                "Science Research"
-
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci."
-
-            ],
-            "Religious Studies":[
-                "Religious Studies 1"
-            ],
-            "Physical Education":[
-                "Wellness"
             ]
 
         }
@@ -61,11 +41,7 @@
         "subjects":[
             "Math",
             "English",
-            "Language",
-            "Science",
-            "Computer Science",
-            "Religious Studies",
-            "Physical Education"
+            "Language"
         ]
         ,
         "classes":{
@@ -107,34 +83,6 @@
                 "Spanish 4",
                 "AP Spanish Lang. + cult.",
                 "Espanol Moderno"
-            ],
-            "Science":[
-                "Biology",
-                "Chemistry",
-                "Chemistry Honors",
-                "Physics",
-                "Physics Honors",
-                "AP Biology",
-                "ADV Placement Sci. lab",
-                "Human Anatomy + Physiology"
-
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci.",
-                "AP Computer Science A (JAVA)",
-                "AP Computer Science Principles"
-            ],
-            "Religious Studies":[
-                "Religious Studies 201"
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
 
         }
@@ -144,9 +92,7 @@
         "subjects":[
             "Math",
             "English",
-            "Language",
-            "Science",
-            "Computer Science"
+            "Language"
         ]
         ,
         "classes":{
@@ -181,7 +127,6 @@
                 "Mandarin 2",
                 "Mandarin 2 Honors",
                 "Mandarin 3",
-                "Mandarin 4",
                 "AP Mandarin Lang. + cult.",
                 "Spanish 1",
                 "Spanish 2",
@@ -191,39 +136,6 @@
                 "Spanish 4",
                 "AP Spanish Lang. + cult.",
                 "Espanol Moderno"
-            ],
-            "Science":[
-                "Chemistry",
-                "Chemistry Honors",
-                "Physics",
-                "Physics Honors",
-                "AP Biology",
-                "AP Chemistry",
-                "AP Physics C Mech",
-                "ADV Placement Sci. lab",
-                "Astronomy",
-                "Biotechnology",
-                "Engineering",
-                "Env. Science",
-                "Human Anatomy + Physiology"
-
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci.",
-                "AP Computer Science A (JAVA)",
-                "AP Computer Science Principles"
-            ],
-            "Religious Studies":[
-                "Foundations of Ethics"
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
 
         }
@@ -232,10 +144,7 @@
         "subjects":[
             "Math",
             "English",
-            "Language",
-            "Science",
-            "Computer Science",
-            "Religious Studies"
+            "Language"
         ]
         ,
         "classes":{
@@ -274,13 +183,18 @@
                 "Francophone Film + Lit 1",
                 "Francophone Film + Lit 2",
                 "AP French Lang. + cult.",
+                "Latin 1",
                 "Latin 2",
                 "Latin 2 Honors",
                 "Latin 3: Poetry",
                 "Latin 3 Honors",
                 "AP Latin",
+                "Mandarin 1",
+                "Mandarin 2",
+                "Mandarin 2 Honors",
                 "Mandarin 3",
                 "AP Mandarin Lang. + cult.",
+                "Spanish 1",
                 "Spanish 2",
                 "Spanish 2 Honors",
                 "Spanish 3",
@@ -288,48 +202,8 @@
                 "Spanish 4",
                 "AP Spanish Lang. + cult.",
                 "Espanol Moderno"
-            ],
-            "Science":[
-                "Chemistry",
-                "Chemistry Honors",
-                "Physics",
-                "Physics Honors",
-                "AP Biology",
-                "AP Chemistry",
-                "AP Physics C Mech",
-                "ADV Placement Sci. lab",
-                "Astronomy",
-                "Biotechnology",
-                "Engineering",
-                "Env. Science",
-                "Human Anatomy + Physiology"
-            ],
-            "Computer Science":[
-                "Multi Media Design 1A",
-                "Multi Media Design 1B",
-                "Exploring Computer Sci.",
-                "AP Computer Science A (JAVA)",
-                "AP Computer Science Principles"
-            ],
-            "Religious Studies":[
-                "Rel Studies 460",
-                "Rel Studies 447",
-                "Rel Studies 470",
-                "Rel Studies 471",
-                "Rel Studies 472",
-                "Rel Studies 476",
-                "Rel Studies 477",
-                "Rel Studies 571",
-                "Studio Art (B/C)"
-
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
+
         }
     }
 }

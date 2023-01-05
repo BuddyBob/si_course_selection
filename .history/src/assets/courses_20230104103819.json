@@ -1,0 +1,137 @@
+{
+    "Freshman":{
+        "subjects":[
+            "Math",
+            "English",
+            "Language"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Algebra 1",
+                "Algebra 1 Acc",
+                "Algebra 2 Honors"
+            ],
+            "English":[
+                "English 100",
+                "English 103 Honors"
+            ],
+            "Language":[
+                "French 1",
+                "French 1 Accelerated",
+                "French 2",
+                "French 2 Honors",
+                "French 3",
+                "AP French Lang. + cult.",
+                "Latin 1",
+                "Mandarin 1",
+                "Mandarin 2",
+                "Mandarin 2 Honors",
+                "Spanish 1",
+                "Spanish 1 Accelerated",
+                "Spanish 2",
+                "Spanish 2 Honors",
+                "Spanish 3 Honors"
+            ]
+
+        }
+    },
+    "Sophomore":{
+        "subjects":[
+            "Math",
+            "English",
+            "Language"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Geometry",
+                "Geometry Accelerated",
+                "Geometry Honors"
+            ],
+            "English":[
+                "English 200",
+                "English 203 Honors"
+            ],
+            "Language":[
+                "French 1",
+                "French 1 Accelerated",
+                "French 2",
+                "French 2 Honors",
+                "French 3",
+                "French 3 Honors",
+                "French 4",
+                "Francophone Film + Lit 1",
+                "Francophone Film + Lit 2",
+                "AP French Lang. + cult.",
+                "Latin 1",
+                "Latin 2",
+                "Latin 2 Honors",
+                "Mandarin 1",
+                "Mandarin 2",
+                "Mandarin 2 Honors",
+                "Spanish 1",
+                "Spanish 1 Accelerated",
+                "Spanish 2",
+                "Spanish 2 Honors",
+                "Spanish 3 Honors"
+            ]
+
+        }
+    }
+    ,
+    "Junior":{
+        "subjects":[
+            "Math",
+            "English"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Algebra 2",
+                "PreCalc Accelerated",
+                "PreCalc Honors",
+                "Intro to Finance"
+            ],
+            "English":[
+                "English 300",
+                "English 303 Honors"
+            ]
+
+        }
+    },
+    "Senior":{
+        "subjects":[
+            "Math",
+            "English"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Pre Calculus",
+                "Calculus",
+                "AP Calculus AB",
+                "*AP Calculus BC 8°",
+                "AP Statistics",
+                "Honors MultiVar Calc",
+                "Honors Linear Algebra",
+                "Math Analysis",
+                "Intro to Finance"
+
+            ],
+            "English":[
+                "AP English Lit and Comp",
+                "English 430",
+                "English 440",
+                "English 420",
+                "English 435",
+                "English 450",
+                "English 460",
+                "English 473",
+                "English 592",
+                "English 482"
+            ]
+
+        }
+    }
+}

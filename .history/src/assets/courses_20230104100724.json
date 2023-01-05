@@ -1,0 +1,94 @@
+{
+    "Freshman":{
+        "subjects":[
+            "Math",
+            "English"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Algebra 1",
+                "Algebra 1 Acc",
+                "Algebra 2 Honors"
+            ],
+            "English":[
+                "English 1",
+                "English 2",
+                "English 3",
+                "English 4"
+            ]
+
+        }
+    },
+    "Sophomore":{
+        "subjects":[
+            "Math",
+            "English"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Geometry",
+                "Geometry Accelerated",
+                "Geometry Honors"
+            ],
+            "English":[
+                "English 2",
+                "English 3",
+                "English 4",
+                "English 5"
+            ]
+
+        }
+    }
+    ,
+    "Junior":{
+        "subjects":[
+            "Math",
+            "English"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Algebra 2",
+                "PreCalc Accelerated",
+                "PreCalc Honors",
+                "Intro to Finance"
+            ],
+            "English":[
+                "English 3",
+                "English 4",
+                "English 5",
+                "English 6"
+            ]
+
+        }
+    },
+    "Senior":{
+        "subjects":[
+            "Math",
+            "English"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Pre Calculus",
+                "Calculus",
+                "AP Calculus AB",
+                "*AP Calculus BC 8°",
+                "AP Statistics",
+                "Honors MultiVar Calc",
+                "Honors Linear Algebra",
+                "Math Analysis",
+                "Intro to Finance"
+
+            ],
+            "English":[
+                "English 4",
+                "English 5",
+                "English 6"
+            ]
+
+        }
+    }
+}

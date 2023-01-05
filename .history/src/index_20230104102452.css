@@ -29,6 +29,7 @@ body{
   align-items: center;
   width: 100%;
   height: 100%;
+  margin: auto;
 }
 
 .sub-container{
@@ -75,11 +76,9 @@ select {
   text-align: center;
   font-size: 25px;
   font-weight: 20px;
-  margin: 100px;;
+  margin: 30px;
 
 }
-
-
 
 
 .pg1dd{
@@ -91,8 +90,7 @@ select {
   height: 100%;
   margin: auto;
   position: relative;
-  top:100px
-
+  top: 200px;
 
 }
 

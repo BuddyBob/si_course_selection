@@ -7,8 +7,9 @@
             "Science",
             "Computer Science",
             "Religious Studies",
-            "Physical Education"
-        ],
+            "Physical Educaton"
+        ]
+        ,
         "classes":{
             "Math":[
                 "Algebra 1",
@@ -50,9 +51,6 @@
             ],
             "Religious Studies":[
                 "Religious Studies 1"
-            ],
-            "Physical Education":[
-                "Wellness"
             ]
 
         }
@@ -64,8 +62,7 @@
             "Language",
             "Science",
             "Computer Science",
-            "Religious Studies",
-            "Physical Education"
+            "Religious Studies"
         ]
         ,
         "classes":{
@@ -128,13 +125,6 @@
             ],
             "Religious Studies":[
                 "Religious Studies 201"
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
 
         }
@@ -217,13 +207,6 @@
             ],
             "Religious Studies":[
                 "Foundations of Ethics"
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
 
         }
@@ -322,13 +305,6 @@
                 "Rel Studies 571",
                 "Studio Art (B/C)"
 
-            ],
-            "Physical Education":[
-                "PE 210",
-                "PE 215",
-                "PE 615",
-                "PE 715",
-                "PE 815"
             ]
         }
     }

@@ -7,8 +7,10 @@
             "Science",
             "Computer Science",
             "Religious Studies",
-            "Physical Education"
-        ],
+            "Physical Education",
+            "Social Science"
+        ]
+        ,
         "classes":{
             "Math":[
                 "Algebra 1",

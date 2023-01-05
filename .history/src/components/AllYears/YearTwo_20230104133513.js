@@ -6,11 +6,12 @@ import arrow from '../../assets/Arrow 5.png'
 import courseData from '../../assets/courses.json'
 import { useNavigate } from "react-router-dom";
 
-export default function YearFour() {
+export default function Yeartwo() {
   let navigate = useNavigate();
   const [grade, setGrade] = useState(localStorage.getItem('grade'));
+  const [preview, setPreview] = useState(false);
   let grades = Object.keys(courseData)
-  let nextGrade = grades[Object.keys(courseData).indexOf(grade)+3]
+  let nextGrade = grades[Object.keys(courseData).indexOf(grade)+1]
   let subjects = courseData[nextGrade].subjects
   let courses = courseData[nextGrade].classes
   
@@ -23,9 +24,20 @@ function courseSelect(e) {
 
 }
 
+function coursePreview(e) { 
+  e.preventDefault();
+  console.log('hovered')
+  setPreview(true)
+}
+
 function nextPage() {
-    //year four is last year
+    //make sure not a senior
+  if (grade !== "Junior"){
+    navigate("/yearthree");
+  }
+  else{
     navigate("/ThisIsTheResultsPage");
+  }
 }
 
     return (
@@ -37,6 +49,7 @@ function nextPage() {
           <h1 className="titleCourseSelect" >All Years - {nextGrade} </h1>
         </div>
 
+
         <div className="courseSelect">
           {subjects.map((subject, index) => (
             <div key={index}>
@@ -44,7 +57,19 @@ function nextPage() {
               <div className="courses">
               {courses[subject].map((course, index) => (
                 <div key={index}>
-                    <button value={subject} className="course_btn" onClick={(e) => courseSelect(e)}>{course}</button>
+                    <button value={subject} className="course_btn" onMouseOver={(e) => coursePreview(e)}onClick={(e) => courseSelect(e)}>{course}</button>
+                    {/* if preview becomes true, then show white box next ot course_btn */}
+                    {preview && 
+                    <div className="preview">
+                      <h1>Course Name</h1>
+                      <h2>Course Description</h2>
+                      <h3>Course Prerequisites</h3>
+                      {setPreview(false)}
+                    </div>
+                    }
+                    
+
+
                 </div>
               ))}
               </div>

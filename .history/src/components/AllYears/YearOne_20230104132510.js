@@ -6,11 +6,12 @@ import arrow from '../../assets/Arrow 5.png'
 import courseData from '../../assets/courses.json'
 import { useNavigate } from "react-router-dom";
 
-export default function YearFour() {
+export default function YearOne() {
   let navigate = useNavigate();
   const [grade, setGrade] = useState(localStorage.getItem('grade'));
   let grades = Object.keys(courseData)
-  let nextGrade = grades[Object.keys(courseData).indexOf(grade)+3]
+  let nextGrade = grades[Object.keys(courseData).indexOf(grade)+2]
+  console.log(grade,nextGrade)
   let subjects = courseData[nextGrade].subjects
   let courses = courseData[nextGrade].classes
   
@@ -24,8 +25,13 @@ function courseSelect(e) {
 }
 
 function nextPage() {
-    //year four is last year
+    //make sure not a senior
+  if (grade !== "Sophomore"){
+    navigate("/yearFour");
+  }
+  else{
     navigate("/ThisIsTheResultsPage");
+  }
 }
 
     return (
