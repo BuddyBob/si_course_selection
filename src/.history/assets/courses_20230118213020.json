@@ -1,0 +1,654 @@
+{
+    "Freshman":{
+        "subjects":[
+            "Math",
+            "English",
+            "Language",
+            "Science",
+            "Computer Science",
+            "Religious Studies",
+            "Physical Education"
+        ],
+        "classes":{
+            "Math":[
+                {
+                    "name":"Algebra 1",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Algebra 1 Acc",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Algebra 2 Honors",
+                    "preReq":"none",
+                    "preReqText":"none"
+                }
+            ],
+            "English":[
+                {
+                    "name":"English 100",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"English 103 Honors",
+                    "preReq":"none",
+                    "preReqText":"none"
+                }
+            ],
+            "Language":[
+                {
+                    "name":"French 1",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"French 1 Accelerated",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"French 2",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"French 2 Honors",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"French 3",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"AP French Lang. + cult.",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Latin 1",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Mandarin 1",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Mandarin 2",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Mandarin 2 Honors",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Mandarin 3 Honors",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Spanish 1",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Spanish 1 Accelerated",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Spanish 2",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Spanish 2 Honors",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Spanish 3 Honors",
+                    "preReq":"none",
+                    "preReqText":"none"
+                }
+            ],
+            "Science":[
+                {
+                    "name":"Biology",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+
+                {
+                    "name":"Science Research",
+                    "preReq":"none",
+                    "preReqText":"none"
+                }
+
+            ],
+            "Computer Science":[
+                {
+                    "name":"Multi Media Design 1A",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Multi Media Design 1B",
+                    "preReq":"none",
+                    "preReqText":"none"
+                },
+                {
+                    "name":"Exploring Computer Sci.",
+                    "preReq":"none",
+                    "preReqText":"none"
+                }
+            ],
+            "Religious Studies":[
+                {
+                    "name":"Religious Studies 1",
+                    "preReq":"none",
+                    "preReqText":"none"
+                }
+            ],
+            "Physical Education":[
+                {
+                    "name":"Wellness",
+                    "preReq":"none",
+                    "preReqText":"none"
+                }
+            ]
+
+        }
+    },
+    "Sophomore":{
+        "subjects":[
+            "Math",
+            "English",
+            "Language",
+            "Science",
+            "Computer Science",
+            "Religious Studies",
+            "Physical Education"
+        ]
+        ,
+        "classes":{
+            "Math": [
+                {
+                    "name": "Geometry",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Geometry Accelerated",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Geometry Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                }
+            ],
+            "English": [
+                {
+                    "name": "English 200",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "English 203 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                }
+            ],
+            "Language": [
+                {
+                    "name": "French 1",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "French 1 Accelerated",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "French 2",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "French 2 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "French 3",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "French 3 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "French 4",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Francophone Film + Lit 1",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Francophone Film + Lit 2",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "AP French Lang. + cult.",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Latin 1",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Latin 2",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Latin 2 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Latin 3: Poetry",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Latin 3 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Mandarin 1",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Mandarin 2",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Mandarin 2 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Mandarin 3",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "AP Mandarin Lang. + cult.",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Spanish 1",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Spanish 2",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Spanish 2 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Spanish 3",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Spanish 3 Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Spanish 4",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "AP Spanish Lang. + cult.",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Espanol Moderno",
+                    "preReq": "none",
+                    "preReqText": "none"
+                }
+            ],
+            "Science": [
+                {
+                    "name": "Biology",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Chemistry",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Chemistry Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Physics",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Physics Honors",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "AP Biology",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "ADV Placement Sci. lab",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Human Anatomy + Physiology",
+                    "preReq": "none",
+                    "preReqText": "none"
+                }
+            ],
+            "Computer Science": [
+                {
+                    "name": "Multi Media Design 1A",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Multi Media Design 1B",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "Exploring Computer Sci.",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "AP Computer Science A (JAVA)",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "AP Computer Science Principles",
+                    "preReq": "none",
+                    "preReqText": "none"
+                }
+            ],
+            "Religious Studies": [
+                {
+                    "name": "Religious Studies 201",
+                    "preReq": "none",
+                    "preReqText": "none"
+                }
+            ],
+            "Physical Education": [
+                {
+                    "name": "PE 210",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "PE 215",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "PE 615",
+                    "preReq": "none",
+                    "preReqText": "none"
+                },
+                {
+                    "name": "PE 715",
+                    "preReq": "none",
+                    "preReqText":"none"
+                },
+                {
+                    "name": "PE 815",
+                    "preReq": "none",
+                    "preReqText": "none"
+                }
+            ]
+
+        }
+    }
+    ,
+    "Junior":{
+        "subjects":[
+            "Math",
+            "English",
+            "Language",
+            "Science",
+            "Computer Science"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Algebra 2",
+                "PreCalc Accelerated",
+                "PreCalc Honors",
+                "Intro to Finance"
+            ],
+            "English":[
+                "English 300",
+                "English 303 Honors"
+            ],
+            "Language":[
+                "French 1",
+                "French 1 Accelerated",
+                "French 2",
+                "French 2 Honors",
+                "French 3",
+                "French 3 Honors",
+                "French 4",
+                "Francophone Film + Lit 1",
+                "Francophone Film + Lit 2",
+                "AP French Lang. + cult.",
+                "Latin 1",
+                "Latin 2",
+                "Latin 2 Honors",
+                "Latin 3: Poetry",
+                "Latin 3 Honors",
+                "AP Latin",
+                "Mandarin 1",
+                "Mandarin 2",
+                "Mandarin 2 Honors",
+                "Mandarin 3",
+                "Mandarin 4",
+                "AP Mandarin Lang. + cult.",
+                "Spanish 1",
+                "Spanish 2",
+                "Spanish 2 Honors",
+                "Spanish 3",
+                "Spanish 3 Honors",
+                "Spanish 4",
+                "AP Spanish Lang. + cult.",
+                "Espanol Moderno"
+            ],
+            "Science":[
+                "Chemistry",
+                "Chemistry Honors",
+                "Physics",
+                "Physics Honors",
+                "AP Biology",
+                "AP Chemistry",
+                "AP Physics C Mech",
+                "ADV Placement Sci. lab",
+                "Astronomy",
+                "Biotechnology",
+                "Engineering",
+                "Env. Science",
+                "Human Anatomy + Physiology"
+
+            ],
+            "Computer Science":[
+                "Multi Media Design 1A",
+                "Multi Media Design 1B",
+                "Exploring Computer Sci.",
+                "AP Computer Science A (JAVA)",
+                "AP Computer Science Principles"
+            ],
+            "Religious Studies":[
+                "Foundations of Ethics"
+            ],
+            "Physical Education":[
+                "PE 210",
+                "PE 215",
+                "PE 615",
+                "PE 715",
+                "PE 815"
+            ]
+
+        }
+    },
+    "Senior":{
+        "subjects":[
+            "Math",
+            "English",
+            "Language",
+            "Science",
+            "Computer Science",
+            "Religious Studies"
+        ]
+        ,
+        "classes":{
+            "Math":[
+                "Pre Calculus",
+                "Calculus",
+                "AP Calculus AB",
+                "*AP Calculus BC 8°",
+                "AP Statistics",
+                "Honors MultiVar Calc",
+                "Honors Linear Algebra",
+                "Math Analysis",
+                "Intro to Finance"
+
+            ],
+            "English":[
+                "AP English Lit and Comp",
+                "English 430",
+                "English 440",
+                "English 420",
+                "English 435",
+                "English 450",
+                "English 460",
+                "English 473",
+                "English 592",
+                "English 482"
+            ],
+            "Language":[
+                "French 1",
+                "French 1 Accelerated",
+                "French 2",
+                "French 2 Honors",
+                "French 3",
+                "French 3 Honors",
+                "French 4",
+                "Francophone Film + Lit 1",
+                "Francophone Film + Lit 2",
+                "AP French Lang. + cult.",
+                "Latin 2",
+                "Latin 2 Honors",
+                "Latin 3: Poetry",
+                "Latin 3 Honors",
+                "AP Latin",
+                "Mandarin 3",
+                "AP Mandarin Lang. + cult.",
+                "Spanish 2",
+                "Spanish 2 Honors",
+                "Spanish 3",
+                "Spanish 3 Honors",
+                "Spanish 4",
+                "AP Spanish Lang. + cult.",
+                "Espanol Moderno"
+            ],
+            "Science":[
+                "Chemistry",
+                "Chemistry Honors",
+                "Physics",
+                "Physics Honors",
+                "AP Biology",
+                "AP Chemistry",
+                "AP Physics C Mech",
+                "ADV Placement Sci. lab",
+                "Astronomy",
+                "Biotechnology",
+                "Engineering",
+                "Env. Science",
+                "Human Anatomy + Physiology"
+            ],
+            "Computer Science":[
+                "Multi Media Design 1A",
+                "Multi Media Design 1B",
+                "Exploring Computer Sci.",
+                "AP Computer Science A (JAVA)",
+                "AP Computer Science Principles"
+            ],
+            "Religious Studies":[
+                "Rel Studies 460",
+                "Rel Studies 447",
+                "Rel Studies 470",
+                "Rel Studies 471",
+                "Rel Studies 472",
+                "Rel Studies 476",
+                "Rel Studies 477",
+                "Rel Studies 571",
+                "Studio Art (B/C)"
+
+            ],
+            "Physical Education":[
+                "PE 210",
+                "PE 215",
+                "PE 615",
+                "PE 715",
+                "PE 815"
+            ]
+        }
+    }
+}

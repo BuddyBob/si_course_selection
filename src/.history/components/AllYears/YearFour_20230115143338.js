@@ -1,18 +1,18 @@
-import './courseSelection.css'
+import '../courseSelection.css'
 
 import React, {useEffect, useState} from 'react'
 
-import arrow from '../assets/Arrow 5.png'
-import courseData from '../assets/courses.json'
+import arrow from '../../assets/Arrow 5.png'
+import courseData from '../../assets/courses.json'
 import { useNavigate } from "react-router-dom";
 
-export default function CurrentYear() {
+export default function YearFour() {
   let navigate = useNavigate();
   const [grade, setGrade] = useState(localStorage.getItem('grade'));
-  let subjects = courseData[grade].subjects
-  let courses = courseData[grade].classes
-  
-
+  let grades = Object.keys(courseData)
+  let nextGrade = grades[Object.keys(courseData).indexOf(grade)+3]
+  let subjects = courseData[nextGrade].subjects
+  let courses = courseData[nextGrade].classes
   const [activeButtons, setActiveButtons] = useState({});
 
   const handleClick = (subject, course) => {
@@ -24,13 +24,20 @@ export default function CurrentYear() {
 
   const isActive = (subject, course) => activeButtons[subject] === course
 
-function courseSelect(e) {
-  let userCourse = e.target.innerHTML
-  let userSubject = e.target.value
-}
-
 
 function nextPage() {
+
+    //add new courses to their respective subjects in localStorage under the current grade
+    localStorage.setItem(nextGrade, JSON.stringify(activeButtons));
+  
+    //add new courses the all coursesSelected array
+    let coursesSelected = JSON.parse(localStorage.getItem("coursesSelected"))
+    let newCourses = coursesSelected.concat(Object.values(activeButtons))
+    localStorage.setItem("coursesSelected", JSON.stringify(newCourses))
+  
+    console.log(newCourses)
+
+    
     //year four is last year
     navigate("/ThisIsTheResultsPage");
 }
@@ -39,11 +46,10 @@ function nextPage() {
     <div>
         <div className="Headers">
           <div className="Nav">
-            <h1 className="navCourseSelect" >SI Course Selection</h1>
+            <h1 className="navCourseSelect" >SI COURSE SELECTION</h1>
           </div>
-          <h1 className="titleCourseSelect" >Current Year - {grade}</h1>
+          <h1 className="titleCourseSelect" >All Years - {nextGrade} </h1>
         </div>
-
 
         <div className="courseSelect">
           {subjects.map((subject, index) => (
@@ -52,7 +58,7 @@ function nextPage() {
               <div className="courses">
               {courses[subject].map((course, index) => (
                 <div key={index}>
-                  <button value={subject} className={isActive(subject, course) ? 'course_btn_active' : 'course_btn'} onClick={() => handleClick(subject,course)}>{course}</button>
+                      <button value={subject} className={isActive(subject, course) ? 'course_btn_active' : 'course_btn'} onClick={() => handleClick(subject,course)}>{course}</button>
                 </div>
               ))}
               </div>

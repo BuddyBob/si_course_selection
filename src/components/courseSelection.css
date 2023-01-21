@@ -91,10 +91,18 @@
     cursor: pointer;
 }
 
-.course_btn_selected{
-  background: #A61930;
-  color: #FFF;
+.course_btn_active{
   cursor: pointer;
+  border: #A61930 0px solid;
+  border-radius: 7px;
+  background: #A61930;
+  width: 300px; 
+  height: 65px;/*Width of select dropdown to give space for arrow image*/
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 30px;
+  margin: 10px;
 }
 
 .arrow2{

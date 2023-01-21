@@ -8,6 +8,7 @@ function Home() {
   let navigate = useNavigate();
   function formSubmit(e){
     //set up local storage for grade and year inputs
+    localStorage.clear()
     getLocalStorage()
     e.preventDefault();
     localStorage.setItem("grade", e.target.elements[0].value);

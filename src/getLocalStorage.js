@@ -5,14 +5,8 @@ export default function getLocalStorage() {
     localStorage.setItem("grade", "None");
     localStorage.setItem("year", "None");
 
-    let allYears = {
-        "Freshman": {
-            "Freshman":{"Math":"false", "English": "false"},
-            "Sophomore":{"Math":"false", "English": "false"},
-            "Junior":{"Math":"false", "English": "false"},
-            "Senior":{"Math":"false", "English": "false"}
-        }
-    }
-    localStorage.setItem("allYears", JSON.stringify(allYears));
+    let coursesSelected = ["none"]
+    localStorage.setItem("coursesSelected",  JSON.stringify(coursesSelected));
+    console.log(JSON.parse(localStorage.getItem("coursesSelected")))
 
 }
